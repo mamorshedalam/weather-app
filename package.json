@@ -2,10 +2,10 @@
   "name": "live-weather",
   "version": "1.0.0",
   "description": "This site is made by javascript.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Morshed Alam",
   "license": "ISC",
