@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Live Weather</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="assets/css/stye.css">
+</head>
+
+<body>
+     <!-- ========== CONTAINER ========== -->
+     <div class="container">
+          <section class="banner-section">
+               <img src="./assets/img/large.png" alt="">
+               <h1>Live Weather</h1>
+               <p>Enter Your City, Check Your Weather Instantly</p>
+          </section>
+          <section class="main-section">
+               <div class="current-city">
+                    <img id="condition-img" src="" alt="">
+                    <h2><span id="city"></span>, <span id="country"></span></h2>
+                    <h4><span id="main"></span> (<span id="description"></span>)</h4>
+                    <p>TEMP: <span id="temp"></span> | PRESSURE: <span id="pressure"></span> | HUMIDITY: <span id="humidity"></span></p>
+               </div>
+               <div class="search-city">
+                    <input id="city-input" type="text" placeholder="Enter Your City Name" required><br />
+                    <span>After Entering a Valid City Name Press Enter to Get Result</span>
+                    </form>
+               </div>
+               <div class="search-history">
+                    <h3>Recently Searched Result</h3>
+                    <div id="history-element" class="history-div">
+                         <p id="history"></p>
+                         <div id="history-item" class="history-item">
+                              <div class="item-img"><img class="condition-img" src="" alt=""></div>
+                              <div class="item-text">
+                                   <h2><span class="city"></span>, <span class="country"></span></h2>
+                                   <h4><span class="main"></span> (<span class="description"></span>)</h4>
+                                   <p>TEMP: <span class="temp"></span> | PRESSURE: <span class="pressure"></span> | HUMIDITY: <span class="humidity"></span></p>
+                              </div>
+                              <button onclick="onClick(this)">x</button>
+                         </div>
+
+                    </div>
+               </div>
+          </section>
+     </div>
+     <!-- ========== CONTAINER END ========== -->
+
+     <!-- SCRIPT -->
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+     <script src="./app.js"></script>
+</body>
+
+</html>
