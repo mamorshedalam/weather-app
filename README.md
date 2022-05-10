@@ -1,11 +1,11 @@
 ## Weather App Version.1
-Weather App is use to check weather update of any city. It can store search result. 
-Weather App using OpenWeather API for finding weather update.
+Weather App is used to check weather updates of any city. It can store search results. 
+Weather App using OpenWeather API for finding weather updates.
 
 
 #### Features:
 
- - Find temperature, humidity, pressure by city name
+ - Find temperature, humidity & pressure by city name
  - Store search result
  - Delete search result
 
