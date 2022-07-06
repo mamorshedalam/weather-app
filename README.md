@@ -10,6 +10,38 @@ Weather App using OpenWeather API for finding weather updates.
  - Delete search result
 
 
+### Installation
+
+1. Clone repository
+
+```bash
+https://github.com/mamorshedalam/weather-app.git
+```
+
+2. Go to the folder
+
+```bash
+cd weather-app
+```
+
+3. Install Node packages
+
+```bash
+npm i
+```
+
+4. Run Local server with development change waching...
+
+```bash
+npm run dev
+```
+
+5. Open browser
+
+```bash
+http://localhost:4000
+```
+
 
 #### Technology:
 
